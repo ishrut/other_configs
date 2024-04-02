@@ -1,0 +1,26 @@
+#[GENERAL]
+live_config_reload = true
+
+[font]
+size = 10.0
+normal = { family = "Hurmit Nerd Font", style="Regular" }
+
+[window]
+opacity = 0.9
+title = "Alacritty Terminal"
+decorations_theme_variant = "Dark"
+
+#[colors.cursor]
+#cursor = { text = "#2E9EF4", cursor = "#F24E4E"}
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+unfocused_hollow = true
+
+
+
+
+
+

@@ -1,33 +1,4 @@
-!Xcursor.theme: Qogir-dark
+Xcursor.theme: Qogir-dark
 Xcursor.size: 16
 
-! do not scroll with output
-URxvt*scrollTtyOutput: false
 
-! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
-URxvt*scrollWithBuffer: true
-
-! scroll back to the bottom on keypress
-URxvt*scrollTtyKeypress: true
-
-! setting the font
-URxvt.font: xft:Hurmit Nerd Font Light:size=10
-
-! reduce spacing
-URxvt.letterSpace: -1
-
-! enbling copy paste
-URxvt.perl-ext-common: selection-to-clipboard
-URxvt.clipboard.autocopy: true
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.M-v: perl:clipboard:paste
-
-! urxvt appearance
-urxvt*foreground: white
-urxvt*background: black
-
-URxvt.scrollBar: false
-
-urxvt*transparent: true
-urxvt*shading: 15
-URxvt.geometry: 100x30

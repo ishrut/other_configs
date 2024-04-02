@@ -3,3 +3,4 @@
 !.gitignore
 !.Xresources
 !.bashrc
+!.alacritty.toml
